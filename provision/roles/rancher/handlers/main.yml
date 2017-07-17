@@ -1,0 +1,4 @@
+---
+# handlers file for rancher
+- name: restart rancher
+  service: name=rancher state=restarted
